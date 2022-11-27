@@ -14,71 +14,79 @@ public class SpoonApiGetTest extends AbstractClass {
     @Test
     void searchRecipesBurger() {
         given()
-                .queryParam("apiKey", getApiKey())
+                .spec(getRequestSpecification())
                 .queryParam("query", "burger")
                 .expect()
                 .body("results[0].title", equalTo("Falafel Burger"))
                 .when()
-                .request(Method.GET,getBaseUrl() + "recipes/complexSearch")
+                .request(Method.GET, getBaseUrl() + "recipes/complexSearch")
                 .then()
-                .statusCode(200)
-                .contentType(ContentType.JSON)
-                .time(lessThan(2500L));
+                .spec(getResponseSpecification());
     }
+
     @Test
     void searchRecipesGreek() {
         given()
-                .queryParam("apiKey", getApiKey())
+                .spec(getRequestSpecification())
                 .queryParam("excludeCuisine", "greek")
                 .expect()
-                .body("results[0].title",equalTo("Cauliflower, Brown Rice, and Vegetable Fried Rice"))
+                .body("results[0].title", equalTo("Cauliflower, Brown Rice, and Vegetable Fried Rice"))
                 .when()
-                .request(Method.GET,getBaseUrl() + "recipes/complexSearch")
+                .request(Method.GET, getBaseUrl() + "recipes/complexSearch")
                 .then()
-                .statusCode(200)
-                .contentType(ContentType.JSON)
-                .time(lessThan(2500L));
+                .spec(getResponseSpecification());
     }
+
     @Test
     void searchRecipesGluten() {
         given()
-                .queryParam("apiKey", getApiKey())
+                .spec(getRequestSpecification())
                 .queryParam("intolerances", "gluten")
                 .expect()
                 .body("results[0].title", equalTo("Cauliflower, Brown Rice, and Vegetable Fried Rice"))
                 .when()
-                .request(Method.GET,getBaseUrl() + "recipes/complexSearch")
+                .request(Method.GET, getBaseUrl() + "recipes/complexSearch")
                 .then()
-                .statusCode(200)
-                .contentType(ContentType.JSON)
-                .time(lessThan(2500L));
+                .spec(getResponseSpecification());
     }
+
     @Test
     void searchRecipesEggs() {
         given()
-                .queryParam("apiKey", getApiKey())
+                .spec(getRequestSpecification())
                 .queryParam("excludeIngredients", "eggs")
                 .expect()
                 .body("results[4].title", equalTo("African Chicken Peanut Stew"))
                 .when()
                 .request(Method.GET, getBaseUrl() + "recipes/complexSearch")
                 .then()
-                .statusCode(200)
-                .contentType(ContentType.JSON)
-                .time(lessThan(2500L));
+                .spec(getResponseSpecification());
     }
+
     @Test
     void searchRecipesMaxSugar() {
         given()
-                .queryParam("apiKey", getApiKey())
+                .spec(getRequestSpecification())
                 .queryParam("maxSugar", "100")
                 .expect()
                 .body("results[2].title", equalTo("Berry Banana Breakfast Smoothie"))
                 .when()
-                .request(Method.GET,getBaseUrl() + "recipes/complexSearch")
+                .request(Method.GET, getBaseUrl() + "recipes/complexSearch")
                 .then()
-                .statusCode(200)
-                .time(lessThan(2500L))
-                .contentType(ContentType.JSON);
+                .spec(getResponseSpecification());
+    }
+
+    // Tests GET Shopping List
+    @Test
+    void getShoppingList() {
+        given()
+                .spec(getRequestSpecification())
+                .contentType(ContentType.JSON)
+                .queryParam("hash", getHash())
+                .when()
+                .request(Method.GET, getBaseUrl() + "mealplanner/your-users-name591/shopping-list").prettyPeek()
+                .then()
+                .spec(getResponseSpecification());
+
     }
 }

@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3f4b8d1-3324-458c-8d1e-eddd4a3b048d" name="Changes" comment="Rest-assured methods get,post and delete" />
+    <list default="true" id="a3f4b8d1-3324-458c-8d1e-eddd4a3b048d" name="Changes" comment="Rest-assured methods get,post and delete">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/request/AddMealRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/request/AddRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/response/AddResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson3/SpoonApiDeleteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/request/AddMealRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/request/AddRequest$Value.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/request/AddRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/org/example/response/AddResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/lesson3/SpoonApiDeleteTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson3/AbstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson3/AbstractClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson3/SpoonApiGetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson3/SpoonApiGetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson3/SpoonApiPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson3/SpoonApiPostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson3/AbstractClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lesson3/AbstractClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson3/SpoonApiGetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lesson3/SpoonApiGetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/lesson3/SpoonApiPostTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lesson3/SpoonApiPostTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +37,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="Lesson2" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson2" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,6 +59,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2HuKUgQjvuCJl9pkNs7LSoSG7Zx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,7 +80,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -58,8 +89,8 @@
       <recent name="lesson3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpoonApiGetTest">
-    <configuration name="SpoonApiGetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SpoonApiDeleteTest">
+    <configuration name="SpoonApiDeleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project_backend_Java" />
       <extension name="coverage">
         <pattern>
@@ -68,13 +99,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lesson3" />
-      <option name="MAIN_CLASS_NAME" value="lesson3.SpoonApiGetTest" />
+      <option name="MAIN_CLASS_NAME" value="lesson3.SpoonApiDeleteTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpoonApiGetTest.searchRecipesBurger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpoonApiDeleteTest.addAndDeleteShoppingListBaking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project_backend_Java" />
       <extension name="coverage">
         <pattern>
@@ -83,14 +114,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lesson3" />
-      <option name="MAIN_CLASS_NAME" value="lesson3.SpoonApiGetTest" />
-      <option name="METHOD_NAME" value="searchRecipesBurger" />
+      <option name="MAIN_CLASS_NAME" value="lesson3.SpoonApiDeleteTest" />
+      <option name="METHOD_NAME" value="addAndDeleteShoppingListBaking" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpoonApiPostTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpoonApiDeleteTest.addAndDeleteShoppingListPasta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project_backend_Java" />
       <extension name="coverage">
         <pattern>
@@ -99,29 +130,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lesson3" />
-      <option name="MAIN_CLASS_NAME" value="lesson3.SpoonApiPostTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpoonApiPostTest.ClassifyCuisineNegativeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Project_backend_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson3" />
-      <option name="MAIN_CLASS_NAME" value="lesson3.SpoonApiPostTest" />
-      <option name="METHOD_NAME" value="ClassifyCuisineNegativeTest" />
+      <option name="MAIN_CLASS_NAME" value="lesson3.SpoonApiDeleteTest" />
+      <option name="METHOD_NAME" value="addAndDeleteShoppingListPasta" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpoonApiPostTest.addAndDeleteToMealPlan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SpoonApiDeleteTest.addAndDeleteToMealPlan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Project_backend_Java" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +146,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lesson3" />
-      <option name="MAIN_CLASS_NAME" value="lesson3.SpoonApiPostTest" />
+      <option name="MAIN_CLASS_NAME" value="lesson3.SpoonApiDeleteTest" />
       <option name="METHOD_NAME" value="addAndDeleteToMealPlan" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpoonApiPostTest.addShoppingListBaking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project_backend_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson3" />
+      <option name="MAIN_CLASS_NAME" value="lesson3.SpoonApiPostTest" />
+      <option name="METHOD_NAME" value="addShoppingListBaking" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpoonApiGetTest" />
-        <item itemvalue="JUnit.SpoonApiPostTest" />
-        <item itemvalue="JUnit.SpoonApiPostTest.addAndDeleteToMealPlan" />
-        <item itemvalue="JUnit.SpoonApiPostTest.ClassifyCuisineNegativeTest" />
-        <item itemvalue="JUnit.SpoonApiGetTest.searchRecipesBurger" />
+        <item itemvalue="JUnit.SpoonApiDeleteTest" />
+        <item itemvalue="JUnit.SpoonApiDeleteTest.addAndDeleteToMealPlan" />
+        <item itemvalue="JUnit.SpoonApiDeleteTest.addAndDeleteShoppingListPasta" />
+        <item itemvalue="JUnit.SpoonApiDeleteTest.addAndDeleteShoppingListBaking" />
+        <item itemvalue="JUnit.SpoonApiPostTest.addShoppingListBaking" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669228330484</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rest-assured methods get,post and delete">
+      <created>1669475930151</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669475930151</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

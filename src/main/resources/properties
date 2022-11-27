@@ -4,3 +4,17 @@ postman_project = https://spoonacular.com/food-api
 postman_collection = https://www.postman.com/7431899/workspace/spoonacular-api/collection/7431899-ef0368a7-643c-4c87-975c-68399d4f0c12?ctx=documentation
 apiKey =209d9d4b2e214928bdb6adea0bac819a
 base_url=https://api.spoonacular.com/
+hash =000f62c7eaa04bf4ac04d8bd163dd91544d11cfa
+
+"{\n"
+                        + " \"date\": 1589500800,\n"
+                        + " \"slot\": 1,\n"
+                        + " \"position\": 0,\n"
+                        + " \"type\": \"RECIPE\",\n"
+                        + " \"value\": {\n"
+                        + " \"id\": 296213,\n"
+                        + " \"servings\": 2,\n"
+                        + " \"title\" : \"Spinach Salad with Roasted Vegetables and Spiced Chickpea\",\n"
+                        + " \"imageType\": \"jpg\",\n"
+                        + " }\n"
+                        + "}"

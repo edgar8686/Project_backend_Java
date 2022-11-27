@@ -10,11 +10,8 @@
         <module name="Project_backend_Java" />
       </profile>
     </annotationProcessing>
-<<<<<<< HEAD
     <bytecodeTargetLevel>
       <module name="Project_backend_Java" target="11" />
     </bytecodeTargetLevel>
-=======
->>>>>>> Lesson2
   </component>
 </project>
