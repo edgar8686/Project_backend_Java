@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98e77efb-53e0-439a-91ad-d8062f2472b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mini-market.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../mini-market.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/controllers/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/controllers/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/dto/CategoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/dto/CategoryDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/dto/ProductDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/dto/ProductDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/entites/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/entites/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/entites/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/entites/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/exceptions/ExceptionsControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/exceptions/ExceptionsControllerAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/exceptions/MarketError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/exceptions/MarketError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/exceptions/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/repositories/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/repositories/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/repositories/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrains/mini/market/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__init_data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__init_data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\FlameXander\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lBwPJxBwqQhCuX7VZjOPI1oJI1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.geekbrains.mini.market" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.geekbrains.mini.market.config" />
+      <recent name="ru.geekbrains.mini.market.dto" />
+      <recent name="ru.geekbrains.mini.market.service" />
+      <recent name="ru.geekbrains.mini.market.repositories" />
+      <recent name="ru.geekbrains.mini.market.controllers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FlameXander\Desktop\mini-market\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MiniMarketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mini-market" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.geekbrains.mini.market.MiniMarketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98e77efb-53e0-439a-91ad-d8062f2472b0" name="Default Changelist" comment="" />
+      <created>1607083766610</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607083766610</updated>
+      <workItem from="1607083767632" duration="11214000" />
+      <workItem from="1607348890049" duration="550000" />
+      <workItem from="1607443170469" duration="687000" />
+      <workItem from="1607507512155" duration="8372000" />
+      <workItem from="1607533216289" duration="86000" />
+      <workItem from="1607688973214" duration="1251000" />
+      <workItem from="1607705790323" duration="40000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
